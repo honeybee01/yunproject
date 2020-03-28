@@ -1,0 +1,357 @@
+/* 头部 */
+.head {
+	width: 100%;
+	height: 72px;
+	border-bottom: 1px solid #ccc;
+}
+.head .content {
+	height: 70px;
+	width: 1100px;
+	margin: 0 auto;
+}
+.head .dv{
+	float: left;
+}
+.head .logo a{
+	display: block;
+	width: 290px;
+	height: 70px;
+	background: url(../img/modules.png) no-repeat -1px -48px;
+}
+/* 头部搜索 */
+.head .search{
+	width: 300px;
+    height: 70px;
+	margin-left: 334px;
+	
+}
+.head form{
+	width: 100%;
+    height: 38px;
+	margin-top: 15px;
+	background: url(../img/modules.png) no-repeat 0px -0px;
+}
+.head form .sea{
+	width: 80%;
+	margin: 10px 0 0 34px;
+	font-size: 12px;
+	color: #333;
+	height: 14px;
+	line-height: 0;
+	text-align: left;
+	border: none;
+}
+/* 头部购物车 */
+.head .car{
+	width: 36px;
+    height: 36px;
+    margin: 17px 0 0 41px;
+}
+.head .car a{
+	display: block;
+    width: 36px;
+    height: 36px;
+	cursor: pointer;
+	background: url(../img/modules.png) no-repeat -110px -158px;
+	position: relative;	
+}
+.head .car span{
+	position: absolute;
+	top: -8px;
+    left: 26px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+	color: #fff;
+	font-size: 12px;
+	background: url(../img/modules.png) no-repeat -156px -158px;
+
+}
+/* 头部登录 */
+.head .login{
+	width: 62px;
+	height: 36px;
+    margin: 15px 0 0 37px;
+    background: url(../img/arrow-d.png) no-repeat 110% center;
+}
+.head .login .logins{
+	display: block;
+	width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+	font-size: 14px;
+	color: #333;	
+}
+/* 首页标题 */
+.index{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0 19px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+.index a{
+    color: #333;
+}
+/* 品牌列表 */
+.plist{
+    width: 1098px;
+    margin: 20px auto 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.plist .top{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.plist .top span{
+    float: left;
+    width: 80px;
+    line-height: 44px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+}
+.plist .top ul{
+    width: 938px;
+    float: left;
+}
+.plist .top ul li{
+    float: left;
+    line-height: 44px;
+    padding: 0 4px;
+    color: #333;
+    line-height: 44px;
+}
+.plist .top ul a{
+    height: 24px;
+    padding: 3px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* 品牌列表分类 */
+.plist .middle{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.plist .middle span{
+    float: left;
+    width: 80px;
+    line-height: 44px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+}
+.plist .middle ul{
+    width: 938px;
+    float: left;
+}
+.plist .middle ul li{
+    float: left;
+    line-height: 44px;
+    padding: 0 4px;
+    color: #333;
+    line-height: 44px;
+}
+.plist .middle ul a{
+    height: 24px;
+    padding: 3px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* 品牌列表价格 */
+.plist .bottom{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.plist .bottom span{
+    float: left;
+    width: 80px;
+    line-height: 44px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+}
+.plist .bottom ul{
+    width: 938px;
+    float: left;
+}
+.plist .bottom ul li{
+    float: left;
+    line-height: 44px;
+    padding: 0 4px;
+    color: #333;
+    line-height: 44px;
+}
+.plist .bottom ul a{
+    height: 24px;
+    padding: 3px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* 排序按钮 */
+.paixu{
+    width: 1100px;
+    height: 21px;
+    margin: 30px auto 30px auto;
+    font-size: 16px;
+}
+/* 商品列表 */
+.main{
+	width: 1116px;
+    margin: 0 auto;
+	padding-left: 16px;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+.main ul{
+
+}
+.main li{
+	width: 263px;
+	height: 382px;
+	float: left;
+	margin-right: 16px;
+}
+
+.main img {
+	width: 263px;
+	height: 263px;
+}
+
+.main p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #333;
+	margin-top: 10px;
+}
+
+.main span {
+	display: block;
+	font-size: 16px;
+	color: #d33a31;
+	padding-top: 4px;
+	text-align: center;
+}
+/* 底部 */
+.footer{
+	width: 100%;
+	height: 160px;
+	background-color: #f2f2f2;
+}
+.footer .content{
+	height: 131px;
+	width: 1100px;
+	margin: 0 auto;
+}
+/* 底部左边 */
+.footer .ft-left{
+	float: left;
+    width: 490px;
+    padding-top: 35px;
+    line-height: 24px;
+}
+
+.footer .ft-left p:nth-child(1) a{
+	line-height: 24px;
+	font-size: 12px;
+	color: #999;
+}
+.footer .ft-left p:nth-child(1) span{
+	margin: 0 8px 0 10px;
+	color: #c2c2c2;	
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(2) {
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(2) span{
+	margin-right: 14px;
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(2) a{
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(3) {
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(3) span{
+	margin-right: 14px;
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(3) a{
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(4) {
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(4) span{
+	margin-right: 14px;
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.footer .ft-left p:nth-child(4) a{
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+/* 底部右边 */
+.footer .ft-right{
+	width: 330px;
+	margin-top: 30px;
+	float: right;
+}
+.footer .ft-right li:nth-child(1) a{
+	
+	margin-left: 0;
+	float: left;
+    width: 60px;
+	height: 70px;
+	background: url(../img/foot_enter.png) no-repeat -60px -80px;
+}
+.footer .ft-right li:nth-child(2) a{
+	
+	margin-left: 30px;
+	float: left;
+    width: 60px;
+	height: 70px;
+	background: url(../img/foot_enter.png) no-repeat 0 -80px;
+}
+.footer .ft-right li:nth-child(3) a{
+	
+	margin-left: 30px;
+	float: left;
+    width: 60px;
+	height: 70px;
+	background: url(../img/foot_enter.png) no-repeat 0 0;
+}.footer .ft-right li:nth-child(4) a{
+	
+	margin-left: 30px;
+	float: left;
+    width: 60px;
+	height: 70px;
+	background: url(../img/foot_enter.png) no-repeat -60px 0;
+}
