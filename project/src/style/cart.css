@@ -1,0 +1,159 @@
+/* 头部 */
+
+.head {
+width: 100%;
+height: 72px;
+border-bottom: 1px solid #ccc;
+}
+
+.head .content {
+height: 70px;
+width: 1100px;
+margin: 0 auto;
+}
+
+.head .dv {
+float: left;
+}
+
+.head .logo a {
+display: block;
+width: 290px;
+height: 70px;
+background: url(../img/modules.png) no-repeat -1px -48px;
+}
+/* 头部搜索 */
+
+.head .search {
+width: 300px;
+height: 70px;
+margin-left: 334px;
+}
+
+.head form {
+width: 100%;
+height: 38px;
+margin-top: 15px;
+background: url(../img/modules.png) no-repeat 0px -0px;
+}
+
+.head form input {
+width: 80%;
+margin: 10px 0 0 34px;
+font-size: 12px;
+color: #333;
+}
+/* 头部购物车 */
+
+.head .car {
+width: 36px;
+height: 36px;
+margin: 17px 0 0 41px;
+}
+
+.head .car a {
+display: block;
+width: 36px;
+height: 36px;
+cursor: pointer;
+background: url(../img/modules.png) no-repeat -110px -158px;
+position: relative;
+}
+
+.head .car span {
+position: absolute;
+top: -8px;
+left: 26px;
+width: 18px;
+height: 18px;
+line-height: 18px;
+text-align: center;
+color: #fff;
+font-size: 12px;
+background: url(../img/modules.png) no-repeat -156px -158px;
+}
+/* 头部登录 */
+
+.head .login {
+width: 62px;
+height: 36px;
+margin: 15px 0 0 37px;
+background: url(../img/arrow-d.png) no-repeat 110% center;
+}
+
+.head .login .logins {
+display: block;
+width: 36px;
+height: 36px;
+line-height: 36px;
+text-align: center;
+font-size: 14px;
+color: #333;
+}
+/* 顶部标题 */
+
+.titles {
+width: 1100px;
+margin: 0 auto;
+padding: 30px 0 19px 0;
+font-size: 16px;
+font-weight: 0;
+color: #333;
+border-bottom: 1px solid #333;
+margin-bottom: 20px;
+}
+
+.titles a {
+cursor: pointer;
+color: #333;
+font-size: 18px;
+font-weight:600;
+}
+/* 购物车信息 */
+.main{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+.f-fl{
+    float: left;
+}
+.carhead{
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    font-size: 14px;
+}
+.check{
+    line-height: 66px;
+    font-size: 14px;
+}
+.allcheck{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+}
+.coverwrap {
+    width: 100px;
+    line-height: 66px;
+    font-size: 14px;
+    color:#333;
+}
+.product {
+    width: 404px;
+}
+.pri1 {
+    width: 116px;
+    text-align: center;
+
+}
+.num {
+    width: 108px;
+    margin: 0 79px 0 42px;
+    text-align: center;
+}
+.pri2 {
+    width: 110px;
+    text-align: center;
+
+}
