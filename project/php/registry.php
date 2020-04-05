@@ -3,8 +3,8 @@
 include "conn.php"; //引入数据库连接的文件。
 
 //接收前端的用户名进行判断
-if (isset($_POST['xingming'])) {
-    $xingming = $_POST['xingming'];
+if (isset($_POST['username'])) {
+    $xingming = $_POST['username'];
     //利用sql语句进行检测
     $result = $conn->query("select * from registry1903 where username = '$xingming'");
 

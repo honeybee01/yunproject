@@ -62,7 +62,7 @@
             <div class="sbox">
                 <div class="sleft">
                     <img src="../img/platform.png" alt="">
-                    <a class="phone"><i>手机号登录</i></a>
+                    <a class="phone"><i>登录</i></a>
                     <a class="btn1"><i>注册</i></a>
                 </div>
                 <div class="sright">
@@ -94,7 +94,7 @@
         <div class="xsbox">
             <div class="xsleft">
                 <img src="../img/platform.png" alt="">
-                <a class="xphone"><i>手机号登录</i></a>
+                <a class="xphone"><i>登录</i></a>
                 <a class="xbtn1"><i>注册</i></a>
             </div>
             <div class="xsright">
@@ -119,16 +119,16 @@
     <!-- 悬浮注册盒子 -->
     <div class="flogin">
         <div class="ftop">
-            网易邮箱账号注册 <span class="close1"></span>
+            网易邮箱账号注册 <span class="close"></span>
         </div>
         <div class="fmain">
-            <form>
+            <form action="http://localhost/yunproject/project/php/registry.php" method="post">
                 <label for="">账号：</label>
                 <input type="text" placeholder="请输入账号" class="username">
                 <label for="" class="lpws">密码：</label>
                 <input type="password" placeholder="设置登录密码，不少于6位" class="pws">
-                <p></p>
-                <p></p>
+                <p class="p1"></p>
+                <p class="p2"></p>
                 <input type="submit" value="用户注册" name="submit" class="submit">
             </form>
         </div>
@@ -141,7 +141,7 @@
     <!-- 悬浮邮箱登录盒子 -->
     <div class="logins">
         <div class="ltop">
-            网易邮箱账号登录 <span class="close2"></span>
+            网易邮箱账号登录 <span class="close"></span>
         </div>
         <div class="lmain">
             <form>
@@ -195,6 +195,9 @@
             </div>
         </div>
     </div>
+    <!-- <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
+	  <script src="../script/jquery-1.11.3.js"></script>
+	  <script src="../script/login.js"></script>
 </body>
 
 </html>

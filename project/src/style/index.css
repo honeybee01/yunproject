@@ -91,8 +91,73 @@
 	width: 100%;
 	height: 480px;
 	background-color: deepskyblue;
+	position:relative;
 } 
+.banner ul{
+	width: 100%;
+	height: 100%;
+}
+.banner ul li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.banner ul li img{
+	margin: 0 auto;
+	height: 100%;
+	width: 1100px;
+}
+.banner ul li:nth-child(1){
+	background: url(../img/109951164868616210.jpg) repeat-x;
+}
+.banner ul li:nth-child(3){
+	background: url(../img/109951164868616210.jpg) repeat-x;
+}
+.banner ul li:nth-child(2){
+	background: url(../img/109951164868596928.png) repeat-x;
+}.banner ul li:nth-child(4){
+	background: url(../img/109951164868596928.png) repeat-x;
+}
+.banner ol{
+	width: auto;
+	height: auto;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	margin-left: -40px;
+}
+.banner ol li{
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+	float: left;
+	margin-right: 10px;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+.banner ol li.active {
+	background-color: orange;
+}
+.banner .left,
+.banner .right {
+	font-size: 60px;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+}
 
+.left {
+	left: 25px;
+}
+
+.right {
+	right: 25px;
+}
 
 /* tab栏 */
 .tab{
@@ -191,75 +256,34 @@
 	padding-right: 16px
 }
 /* 编辑推荐 */
-.main .tj{
-	margin-top: 50px;
-	width: 100%;
-	height: auto;
-}
-.main .tj h4{
-	font-weight: bold;
-	font-size: 24px;
-	color: #333;
-}
-.main .tj .tj-list{
-	margin-top: 20px;
-	/* height: 764px; */
-	height: 100%;
-	overflow: hidden;
-
-}
-.main .tj .tj-list ul{
-	height: auto;
-}
-.main .tj  .tj-list li{
+/* 商品列表 */
+.main .tj .tj-list li{
 	width: 263px;
 	height: 382px;
 	float: left;
 	margin-right: 16px;
 }
-.main .tj  .tj-list a{
-	background-color: #f9f9f9;
-	display: block;
-	width: 263px;
-	height: 263px;
-	cursor: pointer;
-	margin-bottom: 10px;
-}
-.main .tj  .tj-list img{
+
+.main .tj .tj-list img {
 	width: 263px;
 	height: 263px;
 }
-.main .tj  .tj-list li p span:nth-child(1){
-	overflow: hidden;
-    box-sizing: border-box;
-    line-height: 19px;
-    padding: 0 3px;
-    border-radius: 1px;
-    color: #d74d45;
-	font-size: 12px;
-	border: 1px solid #d74d45;
-	display: block;
-	width: auto;
-	float: left;
-}
-.main .tj  .tj-list li p span:nth-child(2){
+
+.main .tj .tj-list p {
+	text-align: center;
 	font-size: 14px;
 	line-height: 18px;
-	text-align: center;
-	width: 200px;
-	word-break: break-word;
-    white-space: normal;
-	display: block;
-	width: 200px;
-	float: left;
+	font-weight: normal;
+	color: #333;
+	margin-top: 10px;
 }
-.main .tj  .tj-list li p:nth-child(3){
-	float: left;
+
+.main .tj .tj-list span {
+	display: block;
 	font-size: 16px;
 	color: #d33a31;
 	padding-top: 4px;
 	text-align: center;
-	width: 263px;
 }
 .main .tj  .tj-list li:nth-child(4){
 	margin-right: 0;
@@ -474,6 +498,7 @@
 	
 }
 .louti .l-back{
+	cursor: pointer;
 	height: 35px;
     border: none;
 	background-position: -70px -0px;
