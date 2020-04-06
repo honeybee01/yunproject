@@ -27,5 +27,5 @@ if (isset($_POST['submit'])) {
     //执行插入的sql语句。
     $conn->query("insert registry1903 values(null,'$user','$pass','$repass','$email',NOW())");
     //如果注册成功，跳到登录页面
-    header('location:http://localhost/NZ_1903/Day%2025/loginregistry/src/login.html');
+    header('location:http://localhost/yunproject/project/src/html/login.html');
 }

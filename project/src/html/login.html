@@ -18,7 +18,7 @@
         <div class="content">
             <!-- 头部logo -->
             <div class="logo dv">
-                <a href="#"></a>
+                <a href="index.html"></a>
             </div>
             <!-- 头部列表 -->
             <ul class="list dv">
@@ -122,13 +122,16 @@
             网易邮箱账号注册 <span class="close"></span>
         </div>
         <div class="fmain">
-            <form action="http://localhost/yunproject/project/php/registry.php" method="post">
+            <form action="http://localhost/yunproject/project/php/registry.php" method="post" class="loginfrom">
                 <label for="">账号：</label>
-                <input type="text" placeholder="请输入账号" class="username">
+                <input type="text" placeholder="请输入账号" name='username' class="username">
                 <label for="" class="lpws">密码：</label>
-                <input type="password" placeholder="设置登录密码，不少于6位" class="pws">
+                <input type="password" placeholder="设置登录密码，不少于6位" name='password' class="pws">
                 <p class="p1"></p>
                 <p class="p2"></p>
+                <p class="p3"></p>
+                <p class="p4"></p>
+
                 <input type="submit" value="用户注册" name="submit" class="submit">
             </form>
         </div>
@@ -196,7 +199,8 @@
         </div>
     </div>
     <!-- <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
-	  <script src="../script/jquery-1.11.3.js"></script>
+      <script src="../script/sha1.js"></script>
+    <script src="../script/jquery-1.11.3.js"></script>
 	  <script src="../script/login.js"></script>
 </body>
 

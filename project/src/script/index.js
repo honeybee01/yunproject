@@ -43,7 +43,7 @@
     $('.louti .l-back').on('click', function () {
         $('html,body').animate({
             scrollTop: 0
-        });
+        })
     })
 
 
@@ -60,7 +60,7 @@
     // 封装切换过程
     function play(value) {
         $olis.eq(value).addClass('active').siblings('li').removeClass('active')
-        $ulis.eq(value).fadeIn('fast').siblings().fadeOut('fast');
+        $ulis.eq(value).fadeIn('fast').siblings().fadeOut('fast')
 
     }
     // 点击小圆圈时把当前点击的小圆圈的索引给index
@@ -108,5 +108,16 @@
         }, 2000)
     })
 
+    // 根据本地存储，显示用户信息
+    if(localStorage.getItem('username')){
+        $('.login').hide()
+        $('.yh').show()
+        $('.yhs').html(localStorage.getItem('username'))
+    }
+    $('.tc').on('click',function(){
+        $('.login').show()
+        $('.yh').hide()
+        localStorage.removeItem('username')
+    })
 
 }(jQuery)
